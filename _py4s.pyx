@@ -1,4 +1,5 @@
 cimport _py4s as py4s
+from cpython cimport bool
 
 try:
     from rdflib.term import URIRef, Literal, BNode, Identifier, Variable
